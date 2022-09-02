@@ -9,7 +9,7 @@ As an assignment for Ohio State Univeristy Bootcamp. We were required create our
 ---
 <img src="./images/SC1.png" alt="Screenshot of Hero img">
 <img src="./images/SC2.png" alt="Screenshot of Recent projects">
-<img src="./images/SC3.png" alt="Screenshot of About me">
+
 
 
 ## LICENSE:
