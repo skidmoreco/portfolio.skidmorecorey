@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
-*{
-    padding: 0; 
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
     font-size: 10px;
     font-family: 'Monteserrat', sans-serif
 }
+
 nav {
     background-color: #485563;
     width: 100%;
@@ -17,7 +19,7 @@ nav {
     position: fixed;
     display: flex;
     flex-flow: row wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     z-index: 20;
 }
@@ -27,6 +29,7 @@ nav img {
     width: auto;
     margin: 15px 0;
 }
+
 nav ul {
     display: inline-block;
     color: white;
@@ -34,9 +37,10 @@ nav ul {
     text-transform: uppercase;
     letter-spacing: .04em;
 }
+
 nav ul li {
     display: inline-block;
-    color: white;    
+    color: white;
 }
 
 nav ul li a {
@@ -49,6 +53,7 @@ nav ul li a {
 a {
     text-decoration: none;
 }
+
 .container {
     min-height: 100vh;
     width: 100%;
@@ -56,6 +61,7 @@ a {
     align-items: center;
     justify-content: center;
 }
+
 img {
     height: 100%;
     width: 100%;
@@ -70,8 +76,8 @@ p {
     font-weight: 300;
     letter-spacing: .05rem;
 }
- 
- #hero {
+
+#hero {
     background-image: url("./images/hero.svg");
     background-size: cover;
     background-position: top center;
@@ -79,17 +85,19 @@ p {
     z-index: 1;
     padding-top: 100px;
 }
-#hero::after{
+
+#hero::after {
     content: '';
     position: absolute;
     left: 0;
     top: 0;
-    height: 100% ;
+    height: 100%;
     width: 100%;
     background-color: black;
     opacity: .7;
     z-index: -1;
 }
+
 #hero h1 {
     display: block;
     width: fit-content;
@@ -105,6 +113,7 @@ p {
     margin: 0 auto;
     padding: 100px 0;
 }
+
 .section-title {
     font-size: 4rem;
     font-weight: 300;
@@ -115,6 +124,8 @@ p {
     text-align: center;
 
 }
+
+.selfie {}
 
 .cta {
     display: inline-block;
@@ -129,6 +140,7 @@ p {
     transition: .3s ease;
     transition-property: background-color, color;
 }
+
 .cta:hover {
     color: white;
     background-color: crimson;
@@ -176,7 +188,7 @@ p {
     margin-bottom: 20px;
 }
 
-#services .service-items h2{
+#services .service-items h2 {
     font-size: 2rem;
     color: white;
     margin-bottom: 10px;
@@ -194,9 +206,11 @@ p {
     margin: 0 auto;
     padding: 100px 0;
 }
+
 #applications .applications-header h1 {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
+
 #applications .all-applications {
     display: flex;
     align-items: center;
@@ -214,6 +228,7 @@ p {
     overflow: hidden;
     border-radius: 10px;
 }
+
 #applications .application-info {
     padding: 30px;
     flex-basis: 50%;
@@ -291,6 +306,7 @@ p {
     letter-spacing: .2rem;
     margin-bottom: 10px;
 }
+
 #about .col-right p {
     margin-bottom: 20px;
 }
@@ -319,7 +335,7 @@ p {
 #contact .contact-info img {
     width: 75%;
     height: auto;
-    
+
 }
 
 #contact .contact-info a,
@@ -347,6 +363,7 @@ p {
     nav {
         flex-direction: column;
     }
+
     #contact .contact-info {
         width: 50%;
     }
